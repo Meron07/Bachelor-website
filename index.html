@@ -4,25 +4,36 @@
         <title>OsloMet BachelorOppgave - DSA</title>
         <meta charset="UTF-8">
         <link type="text/css" href="index.css" rel="stylesheet"/>
+
+        <style>
+            .demo {
+               -webkit-columns: auto auto; /* Chrome, Safari, Opera */
+               -moz-columns: auto auto; /* Firefox */
+               columns: auto auto;
+               text-align: justify;
+            }
+            </style>
     </head>
    
     <body>
        
         <logo>
-        <a href="https://www.oslomet.no/"> <img src="images/oslomet.png" alt="OsloMet Logo"/> </a>
-        <a href="https://inmeta.no/"> <img src="images/inmeta.png" alt="Inmeta Logo"/> </a>
+        <a href="https://www.oslomet.no/"> <img src="images/oslomet.png" alt="OsloMet Logo"/></a>
+        <a href="https://inmeta.no/"> <img src="images/inmeta.png" alt="Inmeta Logo"/></a>
         </logo>
         <div id="particles-js">   </div>
 
         <header>
             <p>Hey whats up!</p>
             <p>Heyo this is the body of the page</p>
-            <p>This page contains the documents, files, reports, that were created througout the duration of the
-                bachelors project<br>
-               Our project involved the creation of a Digital sustainability agent within Microsoft Teams.<br>
-               Its purpose is to give users an overview over their own CO2 Footprint created by utilizing<br>
-               Microsoft services such as Outlook, Teams, SharePoint and OneDrive.<br>
-               Down Below you will find the documents that describe the project, how we implemented the application and underlying work required to complete the project 
+            <p class="demo">This page contains the documents, files, reports, that were created througout the duration of the
+                bachelors project
+               Our project involved the creation of a Digital sustainability agent within Microsoft Teams.
+               Its purpose is to give users an overview over their own CO2 Footprint created by utilizing
+               Microsoft services such as Outlook, Teams, SharePoint and OneDrive.
+               Down Below you will find the documents that describe the project, how we implemented the application and underlying work required to complete the project.
+
+               N.B. After a lot of hard work, we were able to achieve a good result (B), which we are proud of. 
             </p>
         </header>
 
@@ -52,33 +63,37 @@
             <img src="images/file.png">
             <p>SluttRapport</p>
         </div></a>
+        <a href="dokumenter/DSA - BachelorThesis.pdf">
+            <div id="gruppe-item">
+            <img src="images/file.png">
+            <p>Bachelor Thesis</p>
+        </div></a>
         </div>
 
+<!--- prøver på nytt her --->
+
         <div id="Filgruppe-Person">
-            <div id="personcard">
-                <img id="avatar" src="images/PersonAvatar.png">
-                <p id="text-personcard">Jon Presthus</p>
-                <a href='https://www.linkedin.com/in/jon-presthus-7aa1351b7/details/skills/'>
-                    <p><img src="images/linkedin.png"></p>
-                </a>
-            </div>
-            <div id="personcard">
-                <img id="avatar" src="images/PersonAvatar.png">
-                <p id="text-personcard">Mikolaj Baran</p>
-                <a href='https://www.linkedin.com/in/jon-presthus-7aa1351b7/details/skills/'>
-                    <p><img src="images/linkedin.png"></p>
-                </a>
-            </div>
-            <div id="personcard">
-                <img id="avatar" src="images/PersonAvatar.png">
-                <p id="text-personcard">Meron Kidane</p>
-                <a href='https://www.linkedin.com/in/jon-presthus-7aa1351b7/details/skills/'>
-                    <p><img src="images/linkedin.png"></p>
-                </a>C:\Users\Jon Presthus\BachelorWebpage\dokumenter\images\file.png
-            </div>
+                <div id="personcard">
+                  
+                <a href='https://linkedin.com/in/meron-berhe-kidane-245805201'>
+                        <p><img src="images/linkedin.png"></p>
+                        <p>Meron</p>
+               
+            </div></a>
+            
         </div>
+
         <footer>
-            <p id="footerText">Developed by Meron, Jon and Mikolaj</p>
+            <span>© Bachelor documents</span>
+            <details class="center">
+                <summary>Contact me</summary>
+                
+                E-mail: <a href="mailto:meriva.b@yahoo.com" target="_blank">meriva.b@yahoo.com</a>
+            </details>
+            <details class="right">
+                <summary>Attributions</summary>
+                All images downloaded from: <a href="https://stock.adobe.com/no/" target="_blank">stock adobe</a> <br>
+            </details>
         </footer>
         <script src="particles/particles.js"></script>
         <script src="particles/app.js"></script>
